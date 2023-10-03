@@ -5,11 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Week 5 - Image OPtimization</title>
+    <link rel="styledsheet"
+    href="css/main.css">
 </head>
 <body>
     <div class="container">
-        <H1>responsive Image</H1>
+        <H1>RESPONSIVE IMAGE</H1>
         <section>
+            <img srcset="https://placehold.co/320x200 320w,
+            https://placehold.co/600x400 600w,
+            https://placehold.co/1024X600 1024w"
+            sizes="(max-width: 320px) 320px,(max-width: 600px) 600px,
+            (max-width: 1024px) 1024px" src="https://placehold.co/600x400"
+            alt="https://placehold.co/600x400">
             <h2>same image different sizes</h2>
         </section>
     </div>
